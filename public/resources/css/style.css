@@ -1,0 +1,315 @@
+/*--------------------------- */
+/*MAIN COMPONENTS*/
+/*--------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555555;
+    font-family: 'Lato', 'Arial',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden
+}
+
+/*--------------------------- */
+/*REUSABLE COMPONENTS*/
+/*--------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+section {
+    padding: 80px 0px;
+}
+
+
+
+/*--------------------------- */
+/*NAVIGATION BAR*/
+/*--------------------------- */
+
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    
+}
+
+.hero {
+    margin-left: 170px;
+    margin-top:200px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    color: #fff;
+
+}
+
+.brand {
+    font-size: 200%;
+    letter-spacing: 7px;
+}
+
+    
+
+
+header img {
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+    display: inline-block;
+    float: left
+        
+}
+
+.main-nav li {
+    float:right;
+    display: inline-block;
+}
+
+.main-nav li a {
+    margin-top: 55px;
+    margin-right: 20px;
+    list-style: none;
+    float: right;
+    text-decoration: none;
+    color: #fff;
+        
+}
+
+/*--------------------------- */
+/*Headings*/
+/*--------------------------- */
+
+h1,
+h2,
+h3 {
+
+font-weight: 300;
+text-transform: uppercase;
+
+}
+
+
+/*--------------------------- */
+/*buttons*/
+/*--------------------------- */
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 85px;
+    padding: 10px 30px;
+    
+}
+
+.btn:hover,
+.btn:active {
+    box-shadow: 1px 2px #5a5a5a;
+}
+
+.btn-full {
+    border: 1px solid #fff;
+    border-radius: 2px;
+    
+}
+
+.btn-ghost {
+    border: 1px solid #fff;
+    border-radius: 2px;
+    
+    
+    
+}
+
+/*--------------------------- */
+/*icons*/
+/*--------------------------- */
+
+.big-icons {
+    display: inline-block;
+    width:30px;
+    font-size: 250%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-right: 16px;
+    
+    
+    
+
+}
+
+
+
+/*--------------------------- */
+/*Mission*/
+/*--------------------------- */
+
+.mission h2 {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #343434;
+    line-height: 3;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.mission h3 {
+    text-align: center;
+    padding-bottom: 10px
+}
+
+.mission p {
+    text-align-last: center;
+}
+.box {
+    text-align: center;
+    padding-left: 10px
+    
+}
+
+/*--------------------------- */
+/*About us*/
+/*--------------------------- */
+
+.profile {
+    background-color: #f2f2f2;
+}
+
+.profile h2 {
+    
+    text-align: center;
+    border-bottom: 2px solid #343434;
+    line-height: 3;
+    font-size: 40px;
+    font-weight: 400;
+    margin-right: 150px;
+    margin-left: 150px;
+    
+}
+
+.profile img {
+    width: 60px;
+    height: auto;
+    border-radius: 100px;
+    display: inline-block;
+    float:left;
+    border: 1px solid #727272;
+    
+}
+
+.profile p {
+    margin-left: 100px;
+    margin-top: 18px;
+}
+
+.card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 250px
+}
+
+/*--------------------------- */
+/*Contact*/
+/*--------------------------- */
+
+.contact h2 {
+    text-align: center;
+     border-bottom: 2px solid #343434;
+    line-height: 3;
+    font-size: 40px;
+    font-weight: 400;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 15px;
+    
+}
+
+label {
+    padding-right: 100px;
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+    width: 400px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+.checkbox label {
+    padding-right: 117px
+}
+
+*focus {outline: none}
+
+
+/*--------------------------- */
+/*footer*/
+/*--------------------------- */
+
+footer {
+    background-color: black;
+    height: 100px;
+}
+
+.footer-ele {
+    display: inline-block;
+}
+
+footer i {
+    display: inline-block;
+    float: left;
+    color: white;
+    font-size: 50px;
+    padding-right:20px
+}
+.social-media {
+    margin-left: 100px;
+    padding: 20px;
+}
+
+footer p {
+
+    color: white;
+    float: right;
+    margin-left:540px;
+}
+
+
+
+
+
+
