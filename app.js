@@ -17,5 +17,12 @@ app.get("/contact", function(req, res){
     res.render("contact");
 });
 
+app.get("/lessons", function(req, res){
+    res.render("lessons");
+});
+
+app.get("/research", function(req, res){
+    res.render("research");
+});
 
 app.listen(process.env.PORT || 5000)
