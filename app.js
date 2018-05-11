@@ -9,4 +9,13 @@ app.get("/", function(req, res){
     res.render("index");
 });
 
+app.get("/about", function(req, res){
+    res.render("about");
+});
+
+app.get("/contact", function(req, res){
+    res.render("contact");
+});
+
+
 app.listen(process.env.PORT || 5000)
