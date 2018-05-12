@@ -41,7 +41,7 @@ section {
 
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("img/hero.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1449623829000/photosp/6f98aedd-1f0f-42e1-824c-12fb126ccd19/stock-photo-travel-travel-destinations-dress-south-america-person-woman-serious-thinking-native-6f98aedd-1f0f-42e1-824c-12fb126ccd19.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -114,7 +114,7 @@ text-transform: uppercase;
     text-decoration: none;
     color: #fff;
     margin-top: 50px;
-    margin-left: 85px;
+    margin-left: 210px;
     padding: 10px 30px;
     
 }
@@ -329,7 +329,16 @@ ul li p {
 .outline {
     margin-right: 300px;
     margin-left: 100px;
+    margin-top: 65px;
     
 }
 
+/*--------------------------- */
+/*Subjects page*/
+/*--------------------------- */
 
+
+.subjects ul {
+    list-style-type: none;
+
+}
