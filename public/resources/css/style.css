@@ -281,7 +281,7 @@ input[type=checkbox] {
 /*--------------------------- */
 
 footer {
-    background-color: black;
+    background-color: rgb(41, 41, 41);
     height: 100px;
 }
 
@@ -308,8 +308,28 @@ footer p {
     margin-left:540px;
 }
 
+/*--------------------------- */
+/*list items*/
+/*--------------------------- */
 
+li {
+    margin: 10px 0;
+    margin-left: 100px;
+    font-size: 15px;
+  }
 
+ul li p {
+    color: #be4214 ;
+}
 
+/*--------------------------- */
+/*research pages*/
+/*--------------------------- */
+
+.outline {
+    margin-right: 300px;
+    margin-left: 100px;
+    
+}
 
 

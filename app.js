@@ -25,4 +25,9 @@ app.get("/research", function(req, res){
     res.render("research");
 });
 
+app.get("/specialarea", function(req, res){
+    res.render("specialarea");
+});
+
+
 app.listen(process.env.PORT || 5000)
