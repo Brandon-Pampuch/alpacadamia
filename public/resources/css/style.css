@@ -108,7 +108,7 @@ text-transform: uppercase;
 /*buttons*/
 /*--------------------------- */
 
-.btn:link,
+/* .btn:link,
 .btn:visited {
     display: inline-block;
     text-decoration: none;
@@ -133,9 +133,10 @@ text-transform: uppercase;
 .btn-ghost {
     border: 1px solid #fff;
     border-radius: 2px;
-    
-    
-    
+} */
+
+.add {
+    margin-left:220px
 }
 
 /*--------------------------- */
@@ -366,4 +367,12 @@ table#t01 tr:nth-child(odd) {
     border: 1px solid black;
     border-collapse: collapse;
 } */
+
+/*--------------------------- */
+/*input*/
+/*--------------------------- */
+
+
+    
+
 

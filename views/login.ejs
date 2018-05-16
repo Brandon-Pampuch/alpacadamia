@@ -1,9 +1,45 @@
 <% include partials/navbar %>
 
-<h1>login</h1>
 
-<form action="/login" method="POST">
-        <input type="text" name="username" placeholder="username">
-        <input type="password" name="password" placeholder="password">
-        <button>submit</button>
-</form>
+<!-- <form class="ui small form" action="/login" method="POST">
+    <div class="ui stacked segment">
+        <div class="field">
+            <input type="text" name="username" placeholder="username">
+        </div>  
+   
+            <div class="field">
+            <input type="text" name="password" placeholder="password">
+            </div>  
+       
+        <button class="ui button">submit</button>
+    </div>
+    </div>
+    </form>
+</form> -->
+<div class="ui three column grid">
+
+    <div class="row">
+    <div class="column"></div>
+    <div class="column">
+            <h1></h1>
+        <form class="ui large form" action="/login" method="POST">
+                <div class="ui stacked segment">
+                <div class="field">
+                    <div class="ui left icon input">
+                    <i class="user icon"></i>
+                    <input type="text" name="username" placeholder="E-mail address">
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="ui left icon input">
+                    <i class="lock icon"></i>
+                    <input type="password" name="password" placeholder="Password">
+                    </div>
+                </div>
+                <button class="ui fluid large grey submit button">Login</button>
+                </div>
+                <div class="ui error message"></div>
+        </form>
+    </div>
+    </div>
+</div>
