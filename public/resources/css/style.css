@@ -315,12 +315,16 @@ footer p {
 
 li {
     margin: 10px 0;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     font-size: 15px;
   }
 
 ul li p {
     color: #be4214 ;
+}
+
+a {
+    color: inherit;
 }
 
 /*--------------------------- */
@@ -369,10 +373,15 @@ table#t01 tr:nth-child(odd) {
 } */
 
 /*--------------------------- */
-/*input*/
+/*subjects page*/
 /*--------------------------- */
 
 
+
+.subjects-header {
+    padding: 40px;
+    margin-left: 25px;
+}
     
 
 
