@@ -61,6 +61,13 @@ app.get("/specialarea",isLoggedIn, function(req, res){
 app.get("/debates",isLoggedIn, function(req, res){
     res.render("debates");
 });
+app.get("/history",isLoggedIn, function(req, res){
+    res.render("history");
+});
+
+app.get("/quiz",isLoggedIn, function(req, res){
+    res.render("quiz");
+});
 
 
 //Auth Routes

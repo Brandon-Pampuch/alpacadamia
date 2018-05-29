@@ -310,12 +310,12 @@ footer p {
 }
 
 /*--------------------------- */
-/*list items*/
+/*outline for content pages*/
 /*--------------------------- */
 
 li {
     margin: 10px 0;
-    /* margin-left: 100px; */
+    
     font-size: 15px;
   }
 
@@ -338,17 +338,15 @@ a {
     
 }
 
-/*--------------------------- */
-/*Subjects page*/
-/*--------------------------- */
+.outline li {
+    margin-left: 100px;
+}
 
 
-.subjects ul {
-    list-style-type: none;
-}
-.subjects li {
-    font-size: 20px;    
-}
+
+/*--------------------------- */
+/*debates page*/
+/*--------------------------- */
 
 
 table, th, td {
@@ -382,6 +380,34 @@ table#t01 tr:nth-child(odd) {
     padding: 40px;
     margin-left: 25px;
 }
-    
 
+.subjects ul {
+    list-style-type: none;
+}
+.subjects li {
+    font-size: 20px;    
+}
 
+a {
+    color: inherit;
+}
+
+/*--------------------------- */
+/*downloads page*/
+/*--------------------------- */
+
+.download-center {
+    margin-top: 50px;
+}
+
+.quiz-tag {
+    margin-top: 50px
+}
+
+/*--------------------------- */
+/*debates page*/
+/*--------------------------- */
+
+.margin-table {
+    padding-top:50px;
+}
