@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "nodemon --watch /app.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,8 @@
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
   }
 }

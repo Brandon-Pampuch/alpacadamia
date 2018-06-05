@@ -69,6 +69,14 @@ app.get("/quiz",isLoggedIn, function(req, res){
     res.render("quiz");
 });
 
+app.get("/science",isLoggedIn, function(req, res){
+    res.render("science");
+})
+
+app.get("/socialstudies", isLoggedIn, function(req, res){
+    res.render("socialstudies")
+})
+
 
 //Auth Routes
 
@@ -120,4 +128,4 @@ function isLoggedIn(req, res, next){
 
 
 
-app.listen(process.env.PORT || 5000)
+app.listen(process.env.PORT || 5000, () => console.log("server is spining"))
