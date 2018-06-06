@@ -41,7 +41,7 @@ section {
 
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1449623829000/photosp/6f98aedd-1f0f-42e1-824c-12fb126ccd19/stock-photo-travel-travel-destinations-dress-south-america-person-woman-serious-thinking-native-6f98aedd-1f0f-42e1-824c-12fb126ccd19.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://images.unsplash.com/photo-1468487422149-5edc5034604f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ae3d9ad1a1455dff5ccdcf9241410f04&auto=format&fit=crop&w=800&q=60");
     background-size: cover;
     background-position: center;
     height: 100vh;

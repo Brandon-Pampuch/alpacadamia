@@ -16,6 +16,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 
+
+
 //PASSPORT CONFIGURATION
 
 app.use(require("express-session")({
