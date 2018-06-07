@@ -18,6 +18,7 @@ app.use(express.static("public"));
 
 
 
+
 //PASSPORT CONFIGURATION
 
 app.use(require("express-session")({
