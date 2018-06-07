@@ -37,9 +37,7 @@ passport.deserializeUser(User.deserializeUser());
 
 app.set("view engine", "ejs");
 
-app.get("/", function(req, res){
-    res.render("index");
-});
+
 
 app.get("/about", function(req, res){
     res.render("about");
@@ -102,7 +100,7 @@ app.post("/register", function(req, res){
     });
 });
 //show login form
-app.get("/login", function(req, res){
+app.get("/", function(req, res){
     res.render("login");
 })
 
@@ -110,7 +108,7 @@ app.get("/login", function(req, res){
 app.post("/login", passport.authenticate("local",
     {
         successRedirect: "/research",
-        failureRedirect: "/login"
+        failureRedirect: "/"
 
     }), function(req, res){
 });
