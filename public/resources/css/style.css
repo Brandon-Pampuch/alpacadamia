@@ -333,14 +333,14 @@ a {
 /*--------------------------- */
 
 .outline {
-    margin-right: 300px;
-    margin-left: 100px;
+    margin-right: 100px;
+    margin-left: 30px;
     margin-top: 65px;
     
 }
 
 .outline li {
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 
