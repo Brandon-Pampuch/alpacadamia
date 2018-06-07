@@ -25968,9 +25968,9 @@ Floated Menu / Item
   border-spacing: 0px;
 }
 
-.ui.table:first-child {
-  margin-top: 0em;
-}
+/* .ui.table:first-child {
+  margin-top: 0em; */
+
 
 .ui.table:last-child {
   margin-bottom: 0em;
