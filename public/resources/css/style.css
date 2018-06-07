@@ -387,9 +387,7 @@ table#t01 tr:nth-child(odd) {
     font-size: 20px;    
 }
 
-a {
-    color: inherit;
-}
+
 
 /*--------------------------- */
 /*downloads page*/
