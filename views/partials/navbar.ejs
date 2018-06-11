@@ -11,15 +11,17 @@
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script>
     <title>alpacadamia</title>
 </head>
 <nav>
-<div class="ui secondary pointing stackable menu"> 
+<!-- <div class="ui secondary pointing stackable menu">  -->
  
     <!-- <a href="/" class="item">
     Home
   </a> -->
-  <a href="/research" class="item">
+  <!-- <a href="/research" class="item">
     Research
   </a>
   <a href="/debates" class="item">
@@ -32,15 +34,48 @@
     <!-- <a href="/login" class="ui item">
       Login
     </a> -->
-    <a href="/logout" class="ui item">
+    <!-- <a href="/logout" class="ui item">
       Logout
-    </a>
+    </a> --> 
     <!-- <a href="/register" class="ui item">
       Signup
     </a> -->
-  </div>
+  <!-- </div>
 
    
   </div>
 </nav>
-<body>
+<body> -->
+
+  <!-- ****************************** -->
+  <div class="ui menu">
+      <a class="item">
+          Contact us
+        </a> 
+    </a>
+    <div class="ui pointing dropdown link item">
+      <span class="text">Resources</span>
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <div class="header">Types</div>
+        <div class="item"><a href="/quiz">Quiz</a></div>
+        <div class="item"><a href= "/debates">debates</a></div>
+        <div class="item"><a href="/research">research</a></div>
+        <!-- <div class="divider"></div>
+        <div class="header">Order</div>
+        <div class="item">Status</div>
+        <div class="item">Cancellations</div> -->
+      </div>
+    </div>
+    
+    <div class="right menu">
+      <div class="item"><a href="/">Logout</a></div>
+    </div>
+    
+  </div>
+  <script>
+    $('.ui.dropdown')
+  .dropdown();
+  </script>
+</nav>
+</body>
