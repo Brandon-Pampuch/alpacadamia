@@ -43,7 +43,7 @@ app.get("/about", function(req, res){
     res.render("about");
 });
 
-app.get("/contact", function(req, res){
+app.get("/contact",isLoggedIn, function(req, res){
     res.render("contact");
 });
 
